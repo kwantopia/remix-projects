@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_commitPhaseLengthInSeconds",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_choice1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_choice2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "choice1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "choice2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "commitPhaseLengthInSeconds",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/klee1/prj/remix-projects/CommitReveal/CommitRevealElection.sol": "CommitRevealElection"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/klee1/prj/remix-projects/CommitReveal/CommitRevealElection.sol": {
+			"keccak256": "0x10699d73c21e54c0bd8c516adef71432a07bf0ec694850af5aeabbc783c16bf8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50641dd4348a4264658f13d35356b5ebd2a93a07dac0a69a07aaaca9ff43b69e",
+				"dweb:/ipfs/QmYWRFUrkBi6dHTts4as2UsM2nJ2ojk8VBA2RyAJFKcFQ8"
+			]
+		}
+	},
+	"version": 1
+}
